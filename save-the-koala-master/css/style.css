@@ -131,3 +131,17 @@ header .action h1{
 .action h3{
 	color: #b2b266;
 }
+
+.modal-content h4{
+	color: black;
+}
+
+.six-section{
+	background-color: #b2b266;
+    padding: 18px;
+}
+footer{
+	background-color: #41521F;
+    text-decoration: none;
+    color: white;
+}
