@@ -35,6 +35,7 @@ header nav ul{
 	line-height: 70px;
 	text-align: right;
 	padding-right: 80px;
+	color: black;
 }
 
 nav ul li a{
@@ -146,6 +147,6 @@ footer{
     color: white;
 }
 
-.listas-section-6 a {
+footer ul {
 	color: #b2b266;
 }

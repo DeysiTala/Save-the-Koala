@@ -17,39 +17,36 @@
 <body>
     <header>
         <nav>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>Save The Koala</h3>
-                    </div>
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <!--Barras menú-->
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list-inline hidden-sm hidden-xs">
-                            <li>
-                                <a href="#">Foundation</a>
-                            </li>
-                            <li>
-                                <a href="#">Koalas</a>
-                            </li>
-                            <li>
-                                <a href="#">Donate</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+            <nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Save the Koala</a>
+  </div>
+ 
+  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+       otro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Foundation</a></li>
+      <li><a href="#">koalas</a></li>
+      <li><a href="#">Donate</a></li>
+          </ul>
+ 
+   
+ 
+    
+  </div>
+</nav>
         <div class="action text-left">
-            <h1>Save the Koala</h1>
-            <div class="row">
+             <div class="row">
                 <div class="col-md-6">
                     <p class=p rimer-parrafo>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
                     <a class="btn btn-success" href="#" data-toggle="tooltip" title="Hola soy un boton!">See More</a>
@@ -244,10 +241,11 @@
                 </div>
     </section>
     <footer>
-        <h4>ABOUT<h4> 
-        <div class="container">
+        
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
+
                     <p>The Australian Koala Foundation receives no funding from any government so they rely on people like you to help raise funds for their important work in saving koalas for future generations to enjoy. If you’d like to learn more, contact us anytime at</p><a> akf@savethekoala.com.</a>
      
                     </div>
