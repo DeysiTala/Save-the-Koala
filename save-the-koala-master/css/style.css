@@ -1,0 +1,97 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+
+	position: relative;
+	padding-top: 500px;
+	padding-bottom: 498px;
+	background-image: url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+header nav{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 70px;
+	
+}
+
+header nav ul{
+
+	line-height: 70px;
+	text-align: right;
+	padding-right: 80px;
+}
+
+nav ul li a{
+	/*text-transform: uppercase;*/
+	color: #000;
+}
+
+header nav h1{
+	margin: 0px;
+	margin-left: 30px;
+	line-height: 70px;
+
+}
+
+header .action h3{
+	width: 80px;
+	margin: 15px 0px;
+
+}
+
+
+header .action h1{
+	text-size:2em;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+}
+
+.action .btn{
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.action h1, p {
+	
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+.row h3{
+	color:white;
+}
+
+.primer-parrafo{
+	text-align: justify;
+	margin: 0 0 10px;
+}
+
+.section-3 {
+
+	background-color: #b2b266;
+    color: white;
+}
+
+.titulo-3{
+	color: #41521F;
+}
