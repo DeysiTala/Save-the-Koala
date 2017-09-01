@@ -115,12 +115,19 @@ header .action h1{
 	color: white;
 
 }
-.servicio{
-	padding: 0px 30px;
+    .servicio {	padding: 0px 30px;
 
 }
 
 .servicio i{
 	font-size: 6em;
 	margin-bottom: 15px;
+}
+
+.servicio p{
+	color: black;
+}
+
+.action h3{
+	color: #b2b266;
 }
