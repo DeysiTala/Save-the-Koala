@@ -105,4 +105,22 @@ header .action h1{
 
 .section-4{
 	background-image: url(../img/all.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 140px;
+    padding-bottom: 422px;
+}
+.titulo-4 {
+	color: white;
+
+}
+.servicio{
+	padding: 0px 30px;
+
+}
+
+.servicio i{
+	font-size: 6em;
+	margin-bottom: 15px;
 }
