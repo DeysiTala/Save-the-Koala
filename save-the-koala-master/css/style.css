@@ -95,3 +95,14 @@ header .action h1{
 .titulo-3{
 	color: #41521F;
 }
+
+.koala-3{
+	border: 3px solid white;
+	margin-bottom: 14px;
+	margin-top: 19px;
+	vertical-align: middle;
+}
+
+.section-4{
+	background-image: url(../img/all.jpg);
+}
